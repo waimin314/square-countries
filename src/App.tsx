@@ -1,7 +1,7 @@
 import React from 'react';
 
 function App() {
-  return <div>Hello</div>;
+  return <h1>Square Countries</h1>;
 }
 
 export default App;
