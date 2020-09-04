@@ -13,9 +13,9 @@ export const CountryCard: React.FC<countryProps> = ({
 }) => {
   return (
     <div className='bg-white shadow-lg w-40 h-64 rounded-lg p-5'>
-      <div className='bg-teal-400 w-full h-20'>Hola Mola</div>
-      <div className='border-solid border-black w-20 h-20'>
-        <img src={flagURL}></img>
+      <div className='bg-teal-400 w-full h-20 mb-5'></div>
+      <div className='w-full h-20 border border-gray-500'>
+        <img src={flagURL} alt={`flag of ${name}`}></img>
       </div>
     </div>
   );
