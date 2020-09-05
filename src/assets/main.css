@@ -11835,6 +11835,62 @@ video {
   -webkit-overflow-scrolling: auto;
 }
 
+.hover\:overflow-auto:hover {
+  overflow: auto;
+}
+
+.hover\:overflow-hidden:hover {
+  overflow: hidden;
+}
+
+.hover\:overflow-visible:hover {
+  overflow: visible;
+}
+
+.hover\:overflow-scroll:hover {
+  overflow: scroll;
+}
+
+.hover\:overflow-x-auto:hover {
+  overflow-x: auto;
+}
+
+.hover\:overflow-y-auto:hover {
+  overflow-y: auto;
+}
+
+.hover\:overflow-x-hidden:hover {
+  overflow-x: hidden;
+}
+
+.hover\:overflow-y-hidden:hover {
+  overflow-y: hidden;
+}
+
+.hover\:overflow-x-visible:hover {
+  overflow-x: visible;
+}
+
+.hover\:overflow-y-visible:hover {
+  overflow-y: visible;
+}
+
+.hover\:overflow-x-scroll:hover {
+  overflow-x: scroll;
+}
+
+.hover\:overflow-y-scroll:hover {
+  overflow-y: scroll;
+}
+
+.hover\:scrolling-touch:hover {
+  -webkit-overflow-scrolling: touch;
+}
+
+.hover\:scrolling-auto:hover {
+  -webkit-overflow-scrolling: auto;
+}
+
 .overscroll-auto {
   overscroll-behavior: auto;
 }
@@ -15800,6 +15856,25 @@ video {
   white-space: nowrap;
 }
 
+.hover\:break-normal:hover {
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
+.hover\:break-words:hover {
+  overflow-wrap: break-word;
+}
+
+.hover\:break-all:hover {
+  word-break: break-all;
+}
+
+.hover\:truncate:hover {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 .w-0 {
   width: 0;
 }
@@ -18549,6 +18624,34 @@ video {
 }
 
 .transition-transform {
+  transition-property: transform;
+}
+
+.hover\:transition-none:hover {
+  transition-property: none;
+}
+
+.hover\:transition-all:hover {
+  transition-property: all;
+}
+
+.hover\:transition:hover {
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+}
+
+.hover\:transition-colors:hover {
+  transition-property: background-color, border-color, color, fill, stroke;
+}
+
+.hover\:transition-opacity:hover {
+  transition-property: opacity;
+}
+
+.hover\:transition-shadow:hover {
+  transition-property: box-shadow;
+}
+
+.hover\:transition-transform:hover {
   transition-property: transform;
 }
 
@@ -29942,6 +30045,62 @@ video {
     -webkit-overflow-scrolling: auto;
   }
 
+  .sm\:hover\:overflow-auto:hover {
+    overflow: auto;
+  }
+
+  .sm\:hover\:overflow-hidden:hover {
+    overflow: hidden;
+  }
+
+  .sm\:hover\:overflow-visible:hover {
+    overflow: visible;
+  }
+
+  .sm\:hover\:overflow-scroll:hover {
+    overflow: scroll;
+  }
+
+  .sm\:hover\:overflow-x-auto:hover {
+    overflow-x: auto;
+  }
+
+  .sm\:hover\:overflow-y-auto:hover {
+    overflow-y: auto;
+  }
+
+  .sm\:hover\:overflow-x-hidden:hover {
+    overflow-x: hidden;
+  }
+
+  .sm\:hover\:overflow-y-hidden:hover {
+    overflow-y: hidden;
+  }
+
+  .sm\:hover\:overflow-x-visible:hover {
+    overflow-x: visible;
+  }
+
+  .sm\:hover\:overflow-y-visible:hover {
+    overflow-y: visible;
+  }
+
+  .sm\:hover\:overflow-x-scroll:hover {
+    overflow-x: scroll;
+  }
+
+  .sm\:hover\:overflow-y-scroll:hover {
+    overflow-y: scroll;
+  }
+
+  .sm\:hover\:scrolling-touch:hover {
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .sm\:hover\:scrolling-auto:hover {
+    -webkit-overflow-scrolling: auto;
+  }
+
   .sm\:overscroll-auto {
     overscroll-behavior: auto;
   }
@@ -33907,6 +34066,25 @@ video {
     white-space: nowrap;
   }
 
+  .sm\:hover\:break-normal:hover {
+    overflow-wrap: normal;
+    word-break: normal;
+  }
+
+  .sm\:hover\:break-words:hover {
+    overflow-wrap: break-word;
+  }
+
+  .sm\:hover\:break-all:hover {
+    word-break: break-all;
+  }
+
+  .sm\:hover\:truncate:hover {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
   .sm\:w-0 {
     width: 0;
   }
@@ -36656,6 +36834,34 @@ video {
   }
 
   .sm\:transition-transform {
+    transition-property: transform;
+  }
+
+  .sm\:hover\:transition-none:hover {
+    transition-property: none;
+  }
+
+  .sm\:hover\:transition-all:hover {
+    transition-property: all;
+  }
+
+  .sm\:hover\:transition:hover {
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+  }
+
+  .sm\:hover\:transition-colors:hover {
+    transition-property: background-color, border-color, color, fill, stroke;
+  }
+
+  .sm\:hover\:transition-opacity:hover {
+    transition-property: opacity;
+  }
+
+  .sm\:hover\:transition-shadow:hover {
+    transition-property: box-shadow;
+  }
+
+  .sm\:hover\:transition-transform:hover {
     transition-property: transform;
   }
 
@@ -48019,6 +48225,62 @@ video {
     -webkit-overflow-scrolling: auto;
   }
 
+  .md\:hover\:overflow-auto:hover {
+    overflow: auto;
+  }
+
+  .md\:hover\:overflow-hidden:hover {
+    overflow: hidden;
+  }
+
+  .md\:hover\:overflow-visible:hover {
+    overflow: visible;
+  }
+
+  .md\:hover\:overflow-scroll:hover {
+    overflow: scroll;
+  }
+
+  .md\:hover\:overflow-x-auto:hover {
+    overflow-x: auto;
+  }
+
+  .md\:hover\:overflow-y-auto:hover {
+    overflow-y: auto;
+  }
+
+  .md\:hover\:overflow-x-hidden:hover {
+    overflow-x: hidden;
+  }
+
+  .md\:hover\:overflow-y-hidden:hover {
+    overflow-y: hidden;
+  }
+
+  .md\:hover\:overflow-x-visible:hover {
+    overflow-x: visible;
+  }
+
+  .md\:hover\:overflow-y-visible:hover {
+    overflow-y: visible;
+  }
+
+  .md\:hover\:overflow-x-scroll:hover {
+    overflow-x: scroll;
+  }
+
+  .md\:hover\:overflow-y-scroll:hover {
+    overflow-y: scroll;
+  }
+
+  .md\:hover\:scrolling-touch:hover {
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .md\:hover\:scrolling-auto:hover {
+    -webkit-overflow-scrolling: auto;
+  }
+
   .md\:overscroll-auto {
     overscroll-behavior: auto;
   }
@@ -51984,6 +52246,25 @@ video {
     white-space: nowrap;
   }
 
+  .md\:hover\:break-normal:hover {
+    overflow-wrap: normal;
+    word-break: normal;
+  }
+
+  .md\:hover\:break-words:hover {
+    overflow-wrap: break-word;
+  }
+
+  .md\:hover\:break-all:hover {
+    word-break: break-all;
+  }
+
+  .md\:hover\:truncate:hover {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
   .md\:w-0 {
     width: 0;
   }
@@ -54733,6 +55014,34 @@ video {
   }
 
   .md\:transition-transform {
+    transition-property: transform;
+  }
+
+  .md\:hover\:transition-none:hover {
+    transition-property: none;
+  }
+
+  .md\:hover\:transition-all:hover {
+    transition-property: all;
+  }
+
+  .md\:hover\:transition:hover {
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+  }
+
+  .md\:hover\:transition-colors:hover {
+    transition-property: background-color, border-color, color, fill, stroke;
+  }
+
+  .md\:hover\:transition-opacity:hover {
+    transition-property: opacity;
+  }
+
+  .md\:hover\:transition-shadow:hover {
+    transition-property: box-shadow;
+  }
+
+  .md\:hover\:transition-transform:hover {
     transition-property: transform;
   }
 
@@ -66096,6 +66405,62 @@ video {
     -webkit-overflow-scrolling: auto;
   }
 
+  .lg\:hover\:overflow-auto:hover {
+    overflow: auto;
+  }
+
+  .lg\:hover\:overflow-hidden:hover {
+    overflow: hidden;
+  }
+
+  .lg\:hover\:overflow-visible:hover {
+    overflow: visible;
+  }
+
+  .lg\:hover\:overflow-scroll:hover {
+    overflow: scroll;
+  }
+
+  .lg\:hover\:overflow-x-auto:hover {
+    overflow-x: auto;
+  }
+
+  .lg\:hover\:overflow-y-auto:hover {
+    overflow-y: auto;
+  }
+
+  .lg\:hover\:overflow-x-hidden:hover {
+    overflow-x: hidden;
+  }
+
+  .lg\:hover\:overflow-y-hidden:hover {
+    overflow-y: hidden;
+  }
+
+  .lg\:hover\:overflow-x-visible:hover {
+    overflow-x: visible;
+  }
+
+  .lg\:hover\:overflow-y-visible:hover {
+    overflow-y: visible;
+  }
+
+  .lg\:hover\:overflow-x-scroll:hover {
+    overflow-x: scroll;
+  }
+
+  .lg\:hover\:overflow-y-scroll:hover {
+    overflow-y: scroll;
+  }
+
+  .lg\:hover\:scrolling-touch:hover {
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .lg\:hover\:scrolling-auto:hover {
+    -webkit-overflow-scrolling: auto;
+  }
+
   .lg\:overscroll-auto {
     overscroll-behavior: auto;
   }
@@ -70061,6 +70426,25 @@ video {
     white-space: nowrap;
   }
 
+  .lg\:hover\:break-normal:hover {
+    overflow-wrap: normal;
+    word-break: normal;
+  }
+
+  .lg\:hover\:break-words:hover {
+    overflow-wrap: break-word;
+  }
+
+  .lg\:hover\:break-all:hover {
+    word-break: break-all;
+  }
+
+  .lg\:hover\:truncate:hover {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
   .lg\:w-0 {
     width: 0;
   }
@@ -72810,6 +73194,34 @@ video {
   }
 
   .lg\:transition-transform {
+    transition-property: transform;
+  }
+
+  .lg\:hover\:transition-none:hover {
+    transition-property: none;
+  }
+
+  .lg\:hover\:transition-all:hover {
+    transition-property: all;
+  }
+
+  .lg\:hover\:transition:hover {
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+  }
+
+  .lg\:hover\:transition-colors:hover {
+    transition-property: background-color, border-color, color, fill, stroke;
+  }
+
+  .lg\:hover\:transition-opacity:hover {
+    transition-property: opacity;
+  }
+
+  .lg\:hover\:transition-shadow:hover {
+    transition-property: box-shadow;
+  }
+
+  .lg\:hover\:transition-transform:hover {
     transition-property: transform;
   }
 
@@ -84173,6 +84585,62 @@ video {
     -webkit-overflow-scrolling: auto;
   }
 
+  .xl\:hover\:overflow-auto:hover {
+    overflow: auto;
+  }
+
+  .xl\:hover\:overflow-hidden:hover {
+    overflow: hidden;
+  }
+
+  .xl\:hover\:overflow-visible:hover {
+    overflow: visible;
+  }
+
+  .xl\:hover\:overflow-scroll:hover {
+    overflow: scroll;
+  }
+
+  .xl\:hover\:overflow-x-auto:hover {
+    overflow-x: auto;
+  }
+
+  .xl\:hover\:overflow-y-auto:hover {
+    overflow-y: auto;
+  }
+
+  .xl\:hover\:overflow-x-hidden:hover {
+    overflow-x: hidden;
+  }
+
+  .xl\:hover\:overflow-y-hidden:hover {
+    overflow-y: hidden;
+  }
+
+  .xl\:hover\:overflow-x-visible:hover {
+    overflow-x: visible;
+  }
+
+  .xl\:hover\:overflow-y-visible:hover {
+    overflow-y: visible;
+  }
+
+  .xl\:hover\:overflow-x-scroll:hover {
+    overflow-x: scroll;
+  }
+
+  .xl\:hover\:overflow-y-scroll:hover {
+    overflow-y: scroll;
+  }
+
+  .xl\:hover\:scrolling-touch:hover {
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .xl\:hover\:scrolling-auto:hover {
+    -webkit-overflow-scrolling: auto;
+  }
+
   .xl\:overscroll-auto {
     overscroll-behavior: auto;
   }
@@ -88138,6 +88606,25 @@ video {
     white-space: nowrap;
   }
 
+  .xl\:hover\:break-normal:hover {
+    overflow-wrap: normal;
+    word-break: normal;
+  }
+
+  .xl\:hover\:break-words:hover {
+    overflow-wrap: break-word;
+  }
+
+  .xl\:hover\:break-all:hover {
+    word-break: break-all;
+  }
+
+  .xl\:hover\:truncate:hover {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
   .xl\:w-0 {
     width: 0;
   }
@@ -90887,6 +91374,34 @@ video {
   }
 
   .xl\:transition-transform {
+    transition-property: transform;
+  }
+
+  .xl\:hover\:transition-none:hover {
+    transition-property: none;
+  }
+
+  .xl\:hover\:transition-all:hover {
+    transition-property: all;
+  }
+
+  .xl\:hover\:transition:hover {
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+  }
+
+  .xl\:hover\:transition-colors:hover {
+    transition-property: background-color, border-color, color, fill, stroke;
+  }
+
+  .xl\:hover\:transition-opacity:hover {
+    transition-property: opacity;
+  }
+
+  .xl\:hover\:transition-shadow:hover {
+    transition-property: box-shadow;
+  }
+
+  .xl\:hover\:transition-transform:hover {
     transition-property: transform;
   }
 

@@ -20,6 +20,12 @@ export const CountryCard: React.FC<countryProps> = ({
           src={flagURL}
           alt={`flag of ${name}`}
         ></img>
+        <div className='flex flex-row mt-5'>
+          <label className='inline-flex items-center truncate hover:overflow-visible '>
+            <input type='checkbox' className='h-4 w-4 bg-red-700' />
+            <span className='ml-2 text-gray-900'>{name}</span>
+          </label>
+        </div>
       </div>
     </div>
   );
